@@ -40,7 +40,8 @@ public class TrainMovement : MonoBehaviour {
 
             //Movement
             Vector3 pos = Vector3.MoveTowards(transform.position, Target[_current].position, Speed * Time.deltaTime);
-            GetComponent<Rigidbody>().MovePosition(pos);
+            transform.position = pos; 
+            //GetComponent<Rigidbody>().MovePosition(pos);
         }
         else _current = (_current + 1) % Target.Length;
     }

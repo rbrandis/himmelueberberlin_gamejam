@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerInteraction : MonoBehaviour {
+public class PlayerInteraction : MonoBehaviour
+{
+
+    public LayerMask Mask;
 
 	// Use this for initialization
 	void Start () {
@@ -10,7 +13,7 @@ public class PlayerInteraction : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         InteractRaycast();
 	}
 
@@ -19,7 +22,7 @@ public class PlayerInteraction : MonoBehaviour {
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit; 
 
-        if(Physics.Raycast(ray, out hit, 5.0f))
+        if(Physics.Raycast(ray, out hit, 5.0f, Mask))
         {
             Debug.Log(hit.transform.gameObject.name);
         }
