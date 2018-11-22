@@ -31,7 +31,6 @@ public class TrainMovement : MonoBehaviour {
         // the second argument, upwards, defaults to Vector3.up
         Quaternion rotation = Quaternion.LookRotation(relativePos, Vector3.up);
         Quaternion rotationOverTime = Quaternion.RotateTowards(transform.rotation, rotation, RotationSpeed * Time.deltaTime);
-        print(rotationOverTime);
         transform.rotation = rotationOverTime;
 
 
