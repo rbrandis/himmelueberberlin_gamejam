@@ -38,10 +38,66 @@ namespace Articy.Der_Himmel_Ueber_Berlin.GlobalVariables
             }
         }
         
+        // 
+        public int Passenger02Dialogue
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueInt32(1);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueInt32(1, value);
+            }
+        }
+        
+        // 
+        public int Passenger03Dialogue
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueInt32(2);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueInt32(2, value);
+            }
+        }
+        
+        // 
+        public int Passenger04Dialogue
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueInt32(3);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueInt32(3, value);
+            }
+        }
+        
+        // 
+        public int Passenger05Dialogue
+        {
+            get
+            {
+                return _VariableStorage.Internal_GetVariableValueInt32(4);
+            }
+            set
+            {
+                _VariableStorage.Internal_SetVariableValueInt32(4, value);
+            }
+        }
+        
         public void RegisterVariables(BaseGlobalVariables aStorage)
         {
             _VariableStorage = aStorage;
             aStorage.RegisterVariable("Level01.Passenger01Dialogue", 0);
+            aStorage.RegisterVariable("Level01.Passenger02Dialogue", 0);
+            aStorage.RegisterVariable("Level01.Passenger03Dialogue", 0);
+            aStorage.RegisterVariable("Level01.Passenger04Dialogue", 0);
+            aStorage.RegisterVariable("Level01.Passenger05Dialogue", 0);
         }
     }
 }

@@ -11,21 +11,21 @@ MonoBehaviour:
   m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
   m_Name: ArticyDatabase
   m_EditorClassIdentifier: 
-  mHierarchy: {fileID: 114045492175737584}
-  mLocalization: {fileID: 114462999693315282}
+  mHierarchy: {fileID: 114108485310037488}
+  mLocalization: {fileID: 114679052286194834}
   mInternalProject:
     mName: "Der Himmel \xFCber Berlin"
     mDetailName: 
     mId: 05d26e2c-8db7-486a-8ba3-57626584f976
     mTechnicalName: Der_Himmel_Ueber_Berlin
   mImportedAssets: []
-  mDefaultGlobalVariables: {fileID: 114301743151389138}
-  mScriptFragments: {fileID: 114059926728802384}
+  mDefaultGlobalVariables: {fileID: 114275798175629830}
+  mScriptFragments: {fileID: 114256331360974210}
   mPackages:
   - PackageName: All objects
     PackagePath: All objects
     mIsDefaultPackage: 1
---- !u!114 &114045492175737584
+--- !u!114 &114108485310037488
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36,8 +36,14 @@ MonoBehaviour:
   m_Script: {fileID: 1655710724, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
   m_Name: HierarchyManager
   m_EditorClassIdentifier: 
-  serializedNodes: []
---- !u!114 &114059926728802384
+  serializedNodes:
+  - id: 72057594037927937
+    parent: 0
+    technicalName: Der_Himmel_Ueber_Berlin
+    articyType: Project
+    childCount: 0
+    indexOfFirstChild: 1
+--- !u!114 &114256331360974210
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48,7 +54,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c64421b6a466e4d8720b0e99617b6d, type: 3}
   m_Name: ArticyScriptFragments
   m_EditorClassIdentifier: 
---- !u!114 &114301743151389138
+--- !u!114 &114275798175629830
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,14 +70,26 @@ MonoBehaviour:
   - mFullQualifiedName: Level01.Passenger01Dialogue
     mVar:
       values: 00000000
+  - mFullQualifiedName: Level01.Passenger02Dialogue
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: Level01.Passenger03Dialogue
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: Level01.Passenger04Dialogue
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: Level01.Passenger05Dialogue
+    mVar:
+      values: 00000000
   StringVariableCache: []
   LiveBoolVariableCache: []
   LiveIntVariableCache: []
   LiveStringVariableCache: []
   isInitialized: 1
   mLevel01:
-    _VariableStorage: {fileID: 114301743151389138}
---- !u!114 &114462999693315282
+    _VariableStorage: {fileID: 114275798175629830}
+--- !u!114 &114679052286194834
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}

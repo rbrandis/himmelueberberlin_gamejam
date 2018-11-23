@@ -21,7 +21,7 @@ namespace Articy.Der_Himmel_Ueber_Berlin
     
     
     [Serializable()]
-    [Articy.Unity.ArticyCodeGenerationHashAttribute(636785722831866887)]
+    [Articy.Unity.ArticyCodeGenerationHashAttribute(636785856134892995)]
     public class InputPin : ArticyPrimitive, IInputPin
     {
         

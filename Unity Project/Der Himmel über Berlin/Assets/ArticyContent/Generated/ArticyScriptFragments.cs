@@ -19,7 +19,7 @@ namespace Articy.Der_Himmel_Ueber_Berlin.GlobalVariables
 {
     
     
-    [Articy.Unity.ArticyCodeGenerationHashAttribute(636785739243008593)]
+    [Articy.Unity.ArticyCodeGenerationHashAttribute(636785856291527098)]
     public class ArticyScriptFragments : BaseScriptFragments, ISerializationCallbackReceiver
     {
         
@@ -58,6 +58,114 @@ namespace Articy.Der_Himmel_Ueber_Berlin.GlobalVariables
         }
         
         /// <summary>
+        /// ObjectID: 0x100000000000190
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928336?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x100000000000190Text(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger02Dialogue++;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x100000000000196
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928342?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x100000000000196Text(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger02Dialogue++;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x10000000000019C
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928348?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x10000000000019CText(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger02Dialogue = 0;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001BB
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928379?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x1000000000001BBText(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger03Dialogue++;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001C1
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928385?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x1000000000001C1Text(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger03Dialogue++;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001C7
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928391?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x1000000000001C7Text(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger03Dialogue = 0;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001E1
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928417?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x1000000000001E1Text(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger04Dialogue++;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001E7
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928423?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x1000000000001E7Text(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger04Dialogue++;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001ED
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928429?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x1000000000001EDText(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger04Dialogue = 0;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x100000000000207
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928455?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x100000000000207Text(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger05Dialogue++;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x10000000000020D
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928461?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x10000000000020DText(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger05Dialogue++;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x100000000000213
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928467?pane=selected&amp;tab=current
+        /// </summary>
+        public void Script_0x100000000000213Text(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            aGlobalVariablesState.Level01.Passenger05Dialogue = 0;;
+        }
+        
+        /// <summary>
         /// ObjectID: 0x10000000000015B
         /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928283?pane=selected&amp;tab=current
         /// </summary>
@@ -83,6 +191,114 @@ namespace Articy.Der_Himmel_Ueber_Berlin.GlobalVariables
         {
             return aGlobalVariablesState.Level01.Passenger01Dialogue == 2;;
         }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001A0
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928352?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x1000000000001A0Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger02Dialogue == 0;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001A5
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928357?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x1000000000001A5Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger02Dialogue == 1;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001AA
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928362?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x1000000000001AAExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger02Dialogue == 2;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001CB
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928395?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x1000000000001CBExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger03Dialogue == 0;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001D0
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928400?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x1000000000001D0Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger03Dialogue == 1;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001D5
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928405?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x1000000000001D5Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger03Dialogue == 2;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001F1
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928433?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x1000000000001F1Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger04Dialogue == 0;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001F6
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928438?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x1000000000001F6Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger04Dialogue == 1;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x1000000000001FB
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928443?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x1000000000001FBExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger04Dialogue == 2;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x100000000000217
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928471?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x100000000000217Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger05Dialogue == 0;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x10000000000021C
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928476?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x10000000000021CExpression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger05Dialogue == 1;;
+        }
+        
+        /// <summary>
+        /// ObjectID: 0x100000000000221
+        /// Articy Object ref: articy://localhost/view/05d26e2c-8db7-486a-8ba3-57626584f976/72057594037928481?pane=selected&amp;tab=current
+        /// </summary>
+        public bool Script_0x100000000000221Expression(ArticyGlobalVariables aGlobalVariablesState, Articy.Unity.IBaseScriptMethodProvider aMethodProvider)
+        {
+            return aGlobalVariablesState.Level01.Passenger05Dialogue == 2;;
+        }
         #endregion
         
         #region Unity serialization
@@ -97,9 +313,33 @@ namespace Articy.Der_Himmel_Ueber_Berlin.GlobalVariables
             Instructions.Add(-2144862496, this.Script_0x100000000000141Text);
             Instructions.Add(-2138397849, this.Script_0x100000000000148Text);
             Instructions.Add(-2125468555, this.Script_0x10000000000014FText);
+            Instructions.Add(-2002640262, this.Script_0x100000000000190Text);
+            Instructions.Add(-1997099136, this.Script_0x100000000000196Text);
+            Instructions.Add(-1985093363, this.Script_0x10000000000019CText);
+            Instructions.Add(-1728354525, this.Script_0x1000000000001BBText);
+            Instructions.Add(-1715425231, this.Script_0x1000000000001C1Text);
+            Instructions.Add(-1709884105, this.Script_0x1000000000001C7Text);
+            Instructions.Add(-1658166929, this.Script_0x1000000000001E1Text);
+            Instructions.Add(-1652625803, this.Script_0x1000000000001E7Text);
+            Instructions.Add(-1640620030, this.Script_0x1000000000001EDText);
+            Instructions.Add(-1366334293, this.Script_0x100000000000207Text);
+            Instructions.Add(-1354328520, this.Script_0x10000000000020DText);
+            Instructions.Add(-1341399226, this.Script_0x100000000000213Text);
             Conditions.Add(-455377349, this.Script_0x10000000000015BExpression);
             Conditions.Add(-938779380, this.Script_0x100000000000164Expression);
             Conditions.Add(-1333601583, this.Script_0x100000000000169Expression);
+            Conditions.Add(-920998627, this.Script_0x1000000000001A0Expression);
+            Conditions.Add(-1315820830, this.Script_0x1000000000001A5Expression);
+            Conditions.Add(-1404400658, this.Script_0x1000000000001AAExpression);
+            Conditions.Add(1351780717, this.Script_0x1000000000001CBExpression);
+            Conditions.Add(-533750470, this.Script_0x1000000000001D0Expression);
+            Conditions.Add(-928572673, this.Script_0x1000000000001D5Expression);
+            Conditions.Add(-2072536391, this.Script_0x1000000000001F1Expression);
+            Conditions.Add(1827608702, this.Script_0x1000000000001F6Expression);
+            Conditions.Add(1739028874, this.Script_0x1000000000001FBExpression);
+            Conditions.Add(1321484533, this.Script_0x100000000000217Expression);
+            Conditions.Add(1232904705, this.Script_0x10000000000021CExpression);
+            Conditions.Add(-652626482, this.Script_0x100000000000221Expression);
         }
         #endregion
         

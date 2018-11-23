@@ -31,6 +31,10 @@ namespace Articy.Der_Himmel_Ueber_Berlin.GlobalVariables
         static ArticyGlobalVariables()
         {
             variableNames.Add("Level01.Passenger01Dialogue");
+            variableNames.Add("Level01.Passenger02Dialogue");
+            variableNames.Add("Level01.Passenger03Dialogue");
+            variableNames.Add("Level01.Passenger04Dialogue");
+            variableNames.Add("Level01.Passenger05Dialogue");
         }
         #endregion
         
