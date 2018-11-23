@@ -21,6 +21,7 @@ public class DialogueController : MonoBehaviour, IArticyFlowPlayerCallbacks
     public float TextDisplayTime = 2.0f;
 
     public GameObject TextDisplay;
+    public GameObject TextBox;
 
     private void Awake()
     {
@@ -53,6 +54,7 @@ public class DialogueController : MonoBehaviour, IArticyFlowPlayerCallbacks
     {
         IsPlaying = true;
         TextDisplay.SetActive(true);
+        TextBox.SetActive(true);
         _timer = TextDisplayTime;
 
         //TODO FADE IN
@@ -120,6 +122,7 @@ public class DialogueController : MonoBehaviour, IArticyFlowPlayerCallbacks
         _flowPlayer.FinishCurrentPausedObject();
         //TODO FADE OUT
         TextDisplay.SetActive(false);
+        TextBox.SetActive(false);
 
         //LeanTween.moveY(_transform, -_transform.rect.height, 0.5f).setEaseOutSine();
         //ClearOptions();

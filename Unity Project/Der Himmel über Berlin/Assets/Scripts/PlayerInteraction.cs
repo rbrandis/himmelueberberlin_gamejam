@@ -30,13 +30,13 @@ public class PlayerInteraction : MonoBehaviour
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit; 
 
-        if(Physics.Raycast(ray, out hit, 5.0f, Mask))
+        if(Physics.Raycast(ray, out hit, 2.0f, Mask))
         {
             //Debug.Log(hit.transform.gameObject.name);
 
             _timer += Time.deltaTime;
 
-            if(_timer >= 2.0f)
+            if(_timer >= 1.0f)
             {
                 _timer = 0;
 
