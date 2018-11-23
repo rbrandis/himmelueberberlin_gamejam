@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
   m_Name: ArticyDatabase
   m_EditorClassIdentifier: 
-  mHierarchy: {fileID: 114108485310037488}
+  mHierarchy: {fileID: 114152614112009914}
   mLocalization: {fileID: 114679052286194834}
   mInternalProject:
     mName: "Der Himmel \xFCber Berlin"
@@ -25,7 +25,7 @@ MonoBehaviour:
   - PackageName: All objects
     PackagePath: All objects
     mIsDefaultPackage: 1
---- !u!114 &114108485310037488
+--- !u!114 &114152614112009914
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36,13 +36,7 @@ MonoBehaviour:
   m_Script: {fileID: 1655710724, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
   m_Name: HierarchyManager
   m_EditorClassIdentifier: 
-  serializedNodes:
-  - id: 72057594037927937
-    parent: 0
-    technicalName: Der_Himmel_Ueber_Berlin
-    articyType: Project
-    childCount: 0
-    indexOfFirstChild: 1
+  serializedNodes: []
 --- !u!114 &114256331360974210
 MonoBehaviour:
   m_ObjectHideFlags: 3

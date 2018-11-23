@@ -207,7 +207,7 @@ ModelImporter:
       takeName: mixamo.com
       firstFrame: 0
       lastFrame: 129
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
