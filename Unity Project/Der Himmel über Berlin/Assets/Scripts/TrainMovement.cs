@@ -31,7 +31,6 @@ public class TrainMovement : MonoBehaviour {
         // the second argument, upwards, defaults to Vector3.up
         Quaternion rotation = Quaternion.LookRotation(relativePos, Vector3.up);
         Quaternion rotationOverTime = Quaternion.RotateTowards(transform.rotation, rotation, RotationSpeed * Time.deltaTime);
-        print(rotationOverTime);
         transform.rotation = rotationOverTime;
 
 
@@ -41,7 +40,8 @@ public class TrainMovement : MonoBehaviour {
 
             //Movement
             Vector3 pos = Vector3.MoveTowards(transform.position, Target[_current].position, Speed * Time.deltaTime);
-            GetComponent<Rigidbody>().MovePosition(pos);
+            transform.position = pos; 
+            //GetComponent<Rigidbody>().MovePosition(pos);
         }
         else _current = (_current + 1) % Target.Length;
     }
