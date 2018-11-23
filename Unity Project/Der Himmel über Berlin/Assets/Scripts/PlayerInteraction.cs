@@ -7,13 +7,21 @@ public class PlayerInteraction : MonoBehaviour
 
     public LayerMask Mask;
 
+    public DialogueController Controller;
+
+    private float _timer;
+
+    private DialogueTarget _target;
+
+
 	// Use this for initialization
 	void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
+        if (Controller.IsPlaying) return;
         InteractRaycast();
 	}
 
@@ -24,11 +32,30 @@ public class PlayerInteraction : MonoBehaviour
 
         if(Physics.Raycast(ray, out hit, 5.0f, Mask))
         {
-            Debug.Log(hit.transform.gameObject.name);
+            //Debug.Log(hit.transform.gameObject.name);
+
+            _timer += Time.deltaTime;
+
+            if(_timer >= 2.0f)
+            {
+                _timer = 0;
+
+                var currentTarget = hit.collider.GetComponent<DialogueTarget>();
+                if (currentTarget != null && currentTarget != _target)
+                {
+                    _target = currentTarget;
+                    Controller.StartDialogue(_target.DialogueStartingPoint.GetObject());
+                }
+            }
         }
         else
         {
-            Debug.Log("-");
+            //Debug.Log("-");
+
+            _timer = 0;
+
+            _target = null;
+
         }
     }
 }
