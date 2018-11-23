@@ -171,6 +171,7 @@ ModelImporter:
     4300002: HeadF
     7400000: Sitting Idle
     9500000: //RootNode
+    11100000: //RootNode
     13700000: HeadF
     13700002: SuitGEO01
   externalObjects: {}
@@ -274,10 +275,10 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
